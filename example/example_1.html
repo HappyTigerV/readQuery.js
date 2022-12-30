@@ -1,16 +1,19 @@
 <!doctype html>
 <html>
+
 <head>
-<meta charset="utf-8"/>
-<title>readQuery Example 1</title>
+	<meta charset="utf-8" />
+	<title>readQuery Example 1</title>
 </head>
+
 <body>
-<script src="../src/readQuery.js"></script>
-<script>
-// Get query object //
-for(let i in query()){
-	alert(i+"\n"+query()[i])
-}
-</script>
+	<script src="../src/readQuery.js"></script>
+	<script>
+		// Get query object //
+		for (let i in window.location.query) {
+			alert(i + "\n" + query()[i])
+		}
+	</script>
 </body>
+
 </html>
