@@ -23,4 +23,4 @@ The `window.location.query` should be like this:
 `window.location.queryString` is the query string.
 
 ## Examples
-Check examples [here](example/).
+Check examples [here](examples/).
